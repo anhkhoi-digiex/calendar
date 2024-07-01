@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+    margin: auto;
+    height: 100vh;
+
+}
+
+p {
+    margin: 0;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+
+.calendar {
+    border: 1px solid black;
+    padding: 10px;
+    width: 800px;
+}
+
+.calendar .month_year_section {
+    display: flex;
+    gap: 10px;
+    background-color: #D6FED0;
+    justify-content: center;
+}
+
+.day_section {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.date_section .date_number {
+    font-size: 50px;
+    text-align: center;
+}
+
+.date_section .date_text {
+    font-size: 40px;
+    text-decoration: underline;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.calendar_part {
+    width: 100%;
+}
+
+td {
+    height: 40px;
+}
+
+.today {
+    background-color: lightblue;
+}
+
+
+.active {
+    background-color: #A3CA4E;
+}
+
+
+.pagination {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+i{
+    color: blue;
+    cursor: pointer;
+}
+
+
+.inactive {
+    background-color: rgba(0,0,0,0.3);
+    cursor: not-allowed;
+    user-select: none;
+}
