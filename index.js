@@ -59,7 +59,7 @@ function search_date() {
     isSelectedIndex = select_section_day.value
     month = select_section_month.value - 1
     year = select_section_year.value
-    
+
     renderCalendar()
 }
 
@@ -197,7 +197,6 @@ function directToPreviousMonth() {
 }
 
 function directToTwoPreviousMonth() {
-    console.log(month);
     if (month == 0) {
         month = 10
     } else if (month == 1) {
