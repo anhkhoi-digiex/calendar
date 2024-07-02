@@ -122,7 +122,7 @@ function renderCalendar() {
     }
 
     // get all date this month
-    for (let index = day; index < lastDayOfThisMonth + 1; index++) {
+    for (let index = 1; index < lastDayOfThisMonth + 1; index++) {
         // if (index == date) {
         //     dayData.push(`<td onclick="handleChooseDate(${index})" class="today day-${index}">${index}</td>`)
         // } else {
